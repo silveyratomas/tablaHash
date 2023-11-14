@@ -1,3 +1,4 @@
+// Incluimos las librerías necesarias
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -41,6 +42,7 @@ int funcionHash(int dni) {
     return dni % 15; // Reducir el DNI a un índice entre 0 y 14
 }
 
+// Función principal
 int main() {
     // Inicializar el generador de números aleatorios
     srand(time(NULL));
